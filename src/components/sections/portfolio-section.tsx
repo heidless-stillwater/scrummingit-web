@@ -15,7 +15,7 @@ const portfolioItems = [
   {
     title: 'Corporate Rebranding Website',
     description: 'Complete website redesign for a major corporation.',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://storage.googleapis.com/rsr_accounting/rsr_graphic_0.png',
     aiHint: 'corporate website',
   },
   {
