@@ -21,7 +21,7 @@ const portfolioItems = [
   {
     title: 'Creative Agency Portfolio',
     description: 'A visually stunning portfolio for a creative agency.',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://storage.googleapis.com/rsr_accounting/rsr_graphic_0.png',
     aiHint: 'art portfolio',
   },
 ];
