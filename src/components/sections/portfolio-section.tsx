@@ -24,6 +24,12 @@ const portfolioItems = [
     imageUrl: 'https://storage.googleapis.com/rsr_accounting/rsr_graphic_0.png',
     aiHint: 'art portfolio',
   },
+  {
+    title: 'New Project Showcase',
+    description: 'An exciting new project highlighting innovative solutions.',
+    imageUrl: 'https://storage.googleapis.com/rsr_accounting/rsr_graphic_0.png',
+    aiHint: 'new project',
+  },
 ];
 
 export function PortfolioSection({ id }: PortfolioSectionProps) {
