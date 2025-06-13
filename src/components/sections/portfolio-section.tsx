@@ -8,7 +8,7 @@ interface PortfolioSectionProps {
 const portfolioItems = [
   {
     title: 'Accounting',
-    description: 'A sleek and responsive e-commerce site with advanced features.',
+    description: 'Business Info & AI Functionality covering all things Accountancy',
     imageUrl: 'https://storage.googleapis.com/rsr_accounting/rsr_graphic_0.png',
     aiHint: 'website store',
   },
