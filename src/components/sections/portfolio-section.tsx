@@ -28,7 +28,7 @@ const portfolioItems = [
   {
     title: 'New Project Showcase',
     description: 'An exciting new project highlighting innovative solutions.',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://storage.googleapis.com/the_green_dental_surgery/the_green_dental_page_0.png',
     aiHint: 'new project',
   },
 ];
