@@ -42,6 +42,7 @@ const portfolioItems: PortfolioItem[] = [
     description: 'Resource to promote your Dental Practice. AI Enabled',
     imageUrl: 'https://storage.googleapis.com/the_green_dental_surgery/the_green_dental_page_0.png',
     aiHint: 'new project',
+    href: 'https://idx-studio-5863308895-239623456424.europe-west2.run.app',
   },
 ];
 
@@ -88,3 +89,4 @@ export function PortfolioSection({ id }: PortfolioSectionProps) {
     </section>
   );
 }
+
