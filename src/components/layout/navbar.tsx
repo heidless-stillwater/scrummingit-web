@@ -22,7 +22,7 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center" passHref>
             <Image
-              src="https://storage.googleapis.com/scrumming_it_web_0/scrumming_it_logo_0.png"
+              src="https://storage.googleapis.com/scrumming_it_web_0/scrumming_it_logo_1.png"
               alt="ScrummingIT Logo"
               width={400}
               height={80}
