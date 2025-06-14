@@ -31,7 +31,7 @@ const portfolioItems: PortfolioItem[] = [
     href: 'https://idx-studio-1687074158-239623456424.europe-west2.run.app',
   },
   {
-    title: 'Creative Agency Portfolio',
+    title: 'Personal Trainer',
     description: 'Resource to promote your Personal Training Practice. AI Enabled.',
     imageUrl: 'https://storage.googleapis.com/paula-personal-trainer-0/%40iampowerbuilt_page_0.png',
     aiHint: 'art portfolio',
@@ -88,4 +88,3 @@ export function PortfolioSection({ id }: PortfolioSectionProps) {
     </section>
   );
 }
-
