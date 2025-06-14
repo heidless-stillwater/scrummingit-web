@@ -27,7 +27,7 @@ const portfolioItems = [
   },
   {
     title: 'Dental Practice',
-    description: 'An exciting new project highlighting innovative solutions.',
+    description: 'Resource to promote your Dental Practice. AI Enabled',
     imageUrl: 'https://storage.googleapis.com/the_green_dental_surgery/the_green_dental_page_0.png',
     aiHint: 'new project',
   },
