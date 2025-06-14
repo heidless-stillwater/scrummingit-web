@@ -14,7 +14,7 @@ const portfolioItems = [
     aiHint: 'website store',
   },
   {
-    title: 'Personal Trainer',
+    title: 'Fast Food',
     description: 'Resource to promote your restaurant and menu. AI Enabled for recommendations',
     imageUrl: 'https://storage.googleapis.com/fast-food-assets/best_kebab_site_0.png',
     aiHint: 'corporate website',
