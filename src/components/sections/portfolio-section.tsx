@@ -28,6 +28,7 @@ const portfolioItems: PortfolioItem[] = [
     description: 'Resource to promote your restaurant and menu. AI Enabled for recommendations',
     imageUrl: 'https://storage.googleapis.com/fast-food-assets/best_kebab_site_1.png',
     aiHint: 'corporate website',
+    href: 'https://idx-studio-1687074158-239623456424.europe-west2.run.app',
   },
   {
     title: 'Creative Agency Portfolio',
@@ -86,3 +87,4 @@ export function PortfolioSection({ id }: PortfolioSectionProps) {
     </section>
   );
 }
+
