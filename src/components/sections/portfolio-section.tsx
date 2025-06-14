@@ -35,6 +35,7 @@ const portfolioItems: PortfolioItem[] = [
     description: 'Resource to promote your Personal Training Practice. AI Enabled.',
     imageUrl: 'https://storage.googleapis.com/paula-personal-trainer-0/%40iampowerbuilt_page_0.png',
     aiHint: 'art portfolio',
+    href: 'https://idx-studio-4066984445-239623456424.europe-west2.run.app/',
   },
   {
     title: 'Dental Practice',
