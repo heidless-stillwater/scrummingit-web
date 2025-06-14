@@ -16,7 +16,7 @@ const portfolioItems = [
   {
     title: 'Fast Food',
     description: 'Resource to promote your restaurant and menu. AI Enabled for recommendations',
-    imageUrl: 'https://storage.googleapis.com/shukran-kebab-0/best_kebab_site_1.png',
+    imageUrl: 'https://storage.googleapis.com/fast-food-assets/best_kebab_site_1.png',
     aiHint: 'corporate website',
   },
   {
