@@ -21,7 +21,7 @@ const portfolioItems = [
   },
   {
     title: 'Creative Agency Portfolio',
-    description: 'A visually stunning portfolio for a creative agency.',
+    description: 'Resource to promote your Personal Training Practice. AI Enabled.',
     imageUrl: 'https://storage.googleapis.com/paula-personal-trainer-0/%40iampowerbuilt_page_0.png',
     aiHint: 'art portfolio',
   },
