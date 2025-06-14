@@ -25,7 +25,7 @@ export function AboutSection({ id }: AboutSectionProps) {
           </div>
           <div className="rounded-lg overflow-hidden shadow-xl">
             <Image
-              src="https://placehold.co/600x400.png"
+              src="https://storage.googleapis.com/scrumming_it_web_0/web_agency_0.jpeg"
               alt="Web design team working"
               width={600}
               height={400}
