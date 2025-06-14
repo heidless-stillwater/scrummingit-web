@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 
@@ -21,13 +22,13 @@ const portfolioItems = [
   {
     title: 'Creative Agency Portfolio',
     description: 'A visually stunning portfolio for a creative agency.',
-    imageUrl: 'https://storage.googleapis.com/rsr_accounting/rsr_graphic_0.png',
+    imageUrl: 'https://storage.googleapis.com/paula-personal-trainer-0/%40iampowerbuilt_page_0.png',
     aiHint: 'art portfolio',
   },
   {
     title: 'New Project Showcase',
     description: 'An exciting new project highlighting innovative solutions.',
-    imageUrl: 'https://storage.googleapis.com/rsr_accounting/rsr_graphic_0.png',
+    imageUrl: 'https://placehold.co/600x400.png',
     aiHint: 'new project',
   },
 ];
