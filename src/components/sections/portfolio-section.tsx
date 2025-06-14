@@ -14,7 +14,7 @@ const portfolioItems = [
   },
   {
     title: 'Fast Food',
-    description: 'Complete website redesign for a major corporation.',
+    description: 'Resource to promote your restaurant and menu. AI Enabled for recommendations',
     imageUrl: 'https://storage.googleapis.com/rsr_accounting/rsr_graphic_0.png',
     aiHint: 'corporate website',
   },
