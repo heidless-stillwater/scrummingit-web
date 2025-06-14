@@ -11,7 +11,22 @@ export function HeroSection({ id }: HeroSectionProps) {
     <section id={id} className="py-20 md:py-32">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="order-last md:order-first text-center md:text-left">
+          {/* Image Block - now first in DOM for left alignment on desktop */}
+          <div className="order-first flex justify-center md:justify-start">
+            <div className="rounded-lg overflow-hidden shadow-xl max-w-md w-full">
+              <Image
+                src="https://placehold.co/600x450.png"
+                alt="Hero image illustrating web design concepts"
+                width={600}
+                height={450}
+                className="w-full h-auto object-cover"
+                data-ai-hint="web design agency"
+                priority
+              />
+            </div>
+          </div>
+          {/* Text Content Block - now second in DOM for right alignment on desktop */}
+          <div className="order-last text-center md:text-left">
             <h1 className="text-4xl md:text-6xl font-bold font-headline mb-6">
               <span className="text-primary">ScrummingIT</span> Web Design
             </h1>
@@ -27,19 +42,6 @@ export function HeroSection({ id }: HeroSectionProps) {
                   Get in Touch
                 </Button>
               </Link>
-            </div>
-          </div>
-          <div className="flex justify-center md:justify-end">
-            <div className="rounded-lg overflow-hidden shadow-xl max-w-md w-full">
-              <Image
-                src="https://placehold.co/600x450.png"
-                alt="Hero image illustrating web design concepts"
-                width={600}
-                height={450}
-                className="w-full h-auto object-cover"
-                data-ai-hint="web design agency"
-                priority
-              />
             </div>
           </div>
         </div>
