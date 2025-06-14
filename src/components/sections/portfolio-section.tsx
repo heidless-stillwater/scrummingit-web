@@ -26,7 +26,7 @@ const portfolioItems = [
     aiHint: 'art portfolio',
   },
   {
-    title: 'New Project Showcase',
+    title: 'Dental Practice',
     description: 'An exciting new project highlighting innovative solutions.',
     imageUrl: 'https://storage.googleapis.com/the_green_dental_surgery/the_green_dental_page_0.png',
     aiHint: 'new project',
@@ -64,3 +64,4 @@ export function PortfolioSection({ id }: PortfolioSectionProps) {
     </section>
   );
 }
+
