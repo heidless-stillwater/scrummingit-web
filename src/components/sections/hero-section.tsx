@@ -15,7 +15,7 @@ export function HeroSection({ id }: HeroSectionProps) {
           <div className="order-first flex justify-center md:justify-start">
             <div className="rounded-lg overflow-hidden shadow-xl max-w-md w-full">
               <Image
-                src="https://placehold.co/600x450.png"
+                src="https://storage.googleapis.com/scrumming_it_web_0/web-development-team.png"
                 alt="Hero image illustrating web design concepts"
                 width={600}
                 height={450}
