@@ -21,7 +21,14 @@ export function Navbar() {
       <div className="container mx-auto py-3 px-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center" passHref>
-            <span className="text-2xl font-bold text-primary">ScrummingIT</span>
+            <Image
+              src="https://placehold.co/100x20.png"
+              alt="ScrummingIT Logo"
+              width={100}
+              height={20}
+              data-ai-hint="logo brand"
+              priority
+            />
           </Link>
           <nav className="hidden md:flex items-center space-x-4">
             {navLinks.map((link) => (
