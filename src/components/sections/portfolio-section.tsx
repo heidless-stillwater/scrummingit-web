@@ -13,7 +13,7 @@ const portfolioItems = [
     aiHint: 'website store',
   },
   {
-    title: 'Corporate Rebranding Website',
+    title: 'Fast Food',
     description: 'Complete website redesign for a major corporation.',
     imageUrl: 'https://storage.googleapis.com/rsr_accounting/rsr_graphic_0.png',
     aiHint: 'corporate website',
