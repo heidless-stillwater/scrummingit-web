@@ -2,6 +2,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { ThemeToggleButton } from '@/components/theme-toggle-button';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -19,8 +20,15 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md">
       <div className="container mx-auto py-3 px-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-primary">
-            ScrummingIT
+          <Link href="/" className="flex items-center" passHref>
+            <Image
+              src="https://placehold.co/150x40.png"
+              alt="ScrummingIT Logo"
+              width={150}
+              height={40}
+              data-ai-hint="logo"
+              priority
+            />
           </Link>
           <nav className="hidden md:flex items-center space-x-4">
             {navLinks.map((link) => (
