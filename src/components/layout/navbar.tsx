@@ -24,8 +24,8 @@ export function Navbar() {
             <Image
               src="https://storage.googleapis.com/scrumming_it_web_0/scrumming_it_logo_0.png"
               alt="ScrummingIT Logo"
-              width={100}
-              height={20}
+              width={400}
+              height={80}
               data-ai-hint="logo brand"
               priority
             />
@@ -67,3 +67,4 @@ export function Navbar() {
     </header>
   );
 }
+
